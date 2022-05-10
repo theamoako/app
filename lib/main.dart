@@ -1,5 +1,6 @@
+import 'package:app/HomeScreen.dart';
 import 'package:flutter/material.dart';
-import 'package:app/homescreen.dart';
+import 'package:app/Login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
       ),
-      home: const homescreen(),
+      home: const login(),
       debugShowCheckedModeBanner: false,
     );
   }
